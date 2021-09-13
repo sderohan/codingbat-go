@@ -8,7 +8,6 @@ factorial(1) → 1
 factorial(2) → 2
 factorial(3) → 6
 */
-
 func factorial(n int) int {
 	if n == 0 || n == 1 {
 		return n
@@ -25,7 +24,6 @@ bunnyEars2(0) → 0
 bunnyEars2(1) → 2
 bunnyEars2(2) → 5
 */
-
 func bunnyEars2(n int) int {
 	if n == 0 {
 		return n
