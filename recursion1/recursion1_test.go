@@ -19,7 +19,7 @@ func TestFactorial(t *testing.T) {
 	}
 	for _, test := range tests {
 		if got := factorial(test.n); got != test.want {
-			t.Errorf("Factorial(%v) = %v [wanted: %v]", test.n, got, test.want)
+			t.Errorf("factorial(%v) = %v [wanted: %v]", test.n, got, test.want)
 		}
 	}
 }
